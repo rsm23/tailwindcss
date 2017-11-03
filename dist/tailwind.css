@@ -2982,8 +2982,16 @@ button,
   margin: 1px;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .mr-auto {
   margin-right: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .ml-auto {
@@ -2993,6 +3001,15 @@ button,
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .-mt-0 {
@@ -5920,8 +5937,16 @@ button,
     margin: 1px;
   }
 
+  .sm\:mt-auto {
+    margin-top: auto;
+  }
+
   .sm\:mr-auto {
     margin-right: auto;
+  }
+
+  .sm\:mb-auto {
+    margin-bottom: auto;
   }
 
   .sm\:ml-auto {
@@ -5931,6 +5956,15 @@ button,
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .sm\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sm\:m-auto {
+    margin: auto;
   }
 
   .sm\:-mt-0 {
@@ -8859,8 +8893,16 @@ button,
     margin: 1px;
   }
 
+  .md\:mt-auto {
+    margin-top: auto;
+  }
+
   .md\:mr-auto {
     margin-right: auto;
+  }
+
+  .md\:mb-auto {
+    margin-bottom: auto;
   }
 
   .md\:ml-auto {
@@ -8870,6 +8912,15 @@ button,
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .md\:m-auto {
+    margin: auto;
   }
 
   .md\:-mt-0 {
@@ -11798,8 +11849,16 @@ button,
     margin: 1px;
   }
 
+  .lg\:mt-auto {
+    margin-top: auto;
+  }
+
   .lg\:mr-auto {
     margin-right: auto;
+  }
+
+  .lg\:mb-auto {
+    margin-bottom: auto;
   }
 
   .lg\:ml-auto {
@@ -11809,6 +11868,15 @@ button,
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .lg\:m-auto {
+    margin: auto;
   }
 
   .lg\:-mt-0 {
@@ -14737,8 +14805,16 @@ button,
     margin: 1px;
   }
 
+  .xl\:mt-auto {
+    margin-top: auto;
+  }
+
   .xl\:mr-auto {
     margin-right: auto;
+  }
+
+  .xl\:mb-auto {
+    margin-bottom: auto;
   }
 
   .xl\:ml-auto {
@@ -14748,6 +14824,15 @@ button,
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .xl\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .xl\:m-auto {
+    margin: auto;
   }
 
   .xl\:-mt-0 {
