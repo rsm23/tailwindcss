@@ -78,7 +78,7 @@ export default function(config) {
           pointerEvents(options),
           resize(options),
           cursor(options),
-          lists(options),
+          lists(options)
         ])
 
         atRule.before(container(options))
