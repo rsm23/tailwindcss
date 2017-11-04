@@ -6,7 +6,7 @@ export default function(config) {
 
   return functions({
     functions: {
-      config: function(path) {
+      config: path => {
         return _.get(options, _.trim(path, `'"`))
       }
     }
