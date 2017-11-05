@@ -1,4 +1,6 @@
 /node_modules
 /lib
 /example
+/.idea
 yarn-error.log
+.idea/vcs.xml
