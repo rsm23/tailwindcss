@@ -53,8 +53,12 @@ program.version(packageJson.version).usage('<command> [<args>]')
 program
   .command('init [filename]')
   .usage('[options] [filename]')
-  .action((filename = 'tailwind.js') => {
-    const destination = path.resolve(filename)
+  .action(function (filename = 'tailwind.js') {
+    let destination = path.resolve(filename)
+    
+    if (! path.extname(filename).includes('.js')) {
+      destination += '.js'
+    }
 
     if (fs.existsSync(destination)) {
       console.log(`Destination ${destination} already exists, aborting.`)
